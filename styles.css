@@ -1,64 +1,72 @@
 body {
-    margin: 30px auto;
-    padding: 0;    
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    font-family: sans-serif;
-    color: tomato;
+  margin: 30px auto;
+  padding: 0;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-family: sans-serif;
+  color: tomato;
 }
 
 .header {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .footer {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .container {
-    width: 28%;
-    border: 5px solid tomato;
-    border-radius: 10px;
+  width: 28%;
+  border: 5px solid tomato;
+  border-radius: 10px;
 }
 
 #display {
-    height: 100px;
-    border: 1px solid tomato;
-    font-size: 100px;
-    font-family: sans-serif;
-    text-align: end;
-    border-radius: 10px;
-    background-color: white;
+  height: 100px;
+  border: 1px solid tomato;
+  font-size: 100px;
+  font-family: sans-serif;
+  text-align: end;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
-#clear, #equals {
-    flex: 75%;
-    background-color: snow;
+#clear,
+#equals {
+  flex: 75%;
+  background-color: snow;
 }
 
 button {
-    font-size: 30px;
-    width: 25%;
-    height: 60px;
-    border: 1px solid tomato;
-    border-radius: 10px;
-    color: tomato;
+  font-size: 30px;
+  width: 25%;
+  height: 60px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  color: tomato;
 }
 
+/* button:hover {
+  filter: brightness(90%);
+} */
+
 .operator {
-    background-color: thistle;
+  background-color: thistle;
 }
 
 .number {
-    background-color: mintcream;
+  background-color: mintcream;
 }
 
-
+.clicked {
+  filter: brightness(90%);
+  border: 2px solid tomato;
+}
